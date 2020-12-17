@@ -15,3 +15,5 @@ inputs:
 outputs:
   time: # output will be available to future steps 
     description: 'The message to output'
+runs:
+  using: 'node12'
