@@ -1,7 +1,7 @@
 name: "auto assign"
 on:
   pull_request:
-    types: [created]
+    types: [assigned]
 
 jobs:
   # test action works running from the graph  
