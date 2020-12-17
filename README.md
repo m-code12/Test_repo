@@ -1,3 +1,3 @@
 # Test_repo
 
-Testing the action
+Testing the GitHub action
