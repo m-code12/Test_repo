@@ -1,7 +1,0 @@
----
-m-code12:
-  - m-code12
-
-# fallback
-.*:
-  - m-code12
