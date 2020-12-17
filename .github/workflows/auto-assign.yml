@@ -1,7 +1,7 @@
 name: "auto assign"
 on:
   pull_request:
-    types: [assigned]
+    types: [created]
 
 jobs:
   # test action works running from the graph  
@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: ./
       with:
         config: '.github/auto-assigner.yml'
         token: ${{ secrets.GITHUB_TOKEN }}
