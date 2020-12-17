@@ -1,0 +1,7 @@
+---
+m-code12:
+  - m-code12
+
+# fallback
+.*:
+  - shufo
