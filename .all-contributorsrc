@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Pranav016",
+      "name": "Pranav",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54665036?v=4",
+      "profile": "https://www.linkedin.com/in/pranav-mendiratta",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Test_repo",
+  "projectOwner": "m-code12",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
