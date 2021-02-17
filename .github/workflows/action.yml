@@ -1,7 +1,12 @@
-name: 'Auto Assign'
-on: pull_request
+name: Auto Merge Dependency Updates
+
+on:
+  - pull_request
+
 jobs:
-  add-reviews:
+  run:
     runs-on: ubuntu-latest
     steps:
-      - uses: kentaro-m/auto-assign-action@v1.1.2
+      - uses: tjenkinson/gh-action-auto-merge-dependency-updates@v1
+        with:
+          allowed-actors: dependabot-preview[bot], dependabot[bot], all-contributors[bot]
