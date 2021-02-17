@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: tjenkinson/gh-action-auto-merge-dependency-updates@v1
         with:
-          allowed-actors: all-contributors[bot], dependabot-preview[bot], dependabot[bot]
+          allowed-actors: allcontributors[bot], all-contributors-preview[bot], dependabot-preview[bot], dependabot[bot]
